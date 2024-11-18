@@ -136,21 +136,35 @@
   }
 
   .Aboutheading p {
-    font-size: 28px;
+    font-size: 30px;
+  }
+
+  .containerAbout {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .about-img {
+    margin-right: 0; 
+    margin-bottom: 20px; 
+    width: 100%; 
+  }
+
+  .aboutcontent {
+    width: 100%; 
+    align-items: center; 
   }
 
   .aboutcontent h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .aboutcontent p {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .aboutcontent .readmore {
-    font-size: 15px; 
-    padding: 8px 15px; 
-    width: 90%; 
+    font-size: 14px; 
   }
 }
 
